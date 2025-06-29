@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "chmod +x node_modules/.bin/*"  // <-- Add this
   },
   "engines": {
-    "node": "18.x"
-  }
-},
+    "node": ">=18.x"  // <-- Changed to >= for better compatibility
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "lucide-react": "^0.525.0",
