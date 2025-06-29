@@ -8,10 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "chmod +x node_modules/.bin/*"  // <-- Add this
+    "postinstall": "chmod +x node_modules/.bin/*"  
   },
   "engines": {
-    "node": ">=18.x"  // <-- Changed to >= for better compatibility
+    "node": ">=18.x" 
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
