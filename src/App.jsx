@@ -22,10 +22,10 @@ export default function ScratchClone() {
 
   // Available sprite options
   const availableSprites = [
-    { name: "Mega Charizard X", image: "src/public/sprites/mega-charizard-x.png" },
-    { name: "Groudon", image: "src/public/sprites/groudon.png" },
-    { name: "Rayquaza", image: "src/public/sprites/rayquaza.png" },
-    { name: "Lucario", image: "src/public/sprites/lucario.png" },
+    { name: "Mega Charizard X", image: "/sprites/mega-charizard-x.png" },
+    { name: "Groudon", image: "/sprites/groudon.png" },
+    { name: "Rayquaza", image: "/sprites/rayquaza.png" },
+    { name: "Lucario", image: "/sprites/lucario.png" },
   ]
 
   const motionBlocks = [
