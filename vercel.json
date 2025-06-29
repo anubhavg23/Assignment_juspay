@@ -19,8 +19,7 @@
       }
     },
     {
-      "src": "/(.*)",
-      "dest": "/dist/index.html"
+"src": "/out/(.*)", "dest": "/out/$1"
     }
   ]
 }
