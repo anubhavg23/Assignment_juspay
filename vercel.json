@@ -5,7 +5,7 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "installCommand": "npm install --force",
+        "installCommand": "npm install --unsafe-perm",
         "buildCommand": "npm run build",
         "outputDirectory": "dist"
       }
@@ -13,6 +13,6 @@
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/dist/index.html" }
+    { "src": "/.*", "dest": "dist/index.html" }
   ]
 }
